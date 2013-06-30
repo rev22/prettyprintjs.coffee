@@ -1,3 +1,10 @@
+prettyprintjs.coffee
+===
+
+This is an experimental fork converting the code to CoffeeScript.
+
+The upstream README follows:
+
 prettyPrint.js
 ===
 

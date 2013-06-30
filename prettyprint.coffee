@@ -36,11 +36,10 @@
 #    Benjamin Drucker
 #
 #
-prettyPrint = (->
-  
-  # These "util" functions are not part of the core
-  #	   functionality but are  all necessary - mostly DOM helpers 
-  util =
+
+# These "util" functions are not part of the core
+#	   functionality but are  all necessary - mostly DOM helpers 
+util =
     el: (type, attrs) ->
       
       # Create new element 
@@ -316,8 +315,8 @@ prettyPrint = (->
     )()
 
   
-  # Main..
-  prettyPrintThis = (obj, options) ->
+# Main..
+prettyPrintThis = (obj, options) ->
     
     #
     #		 *	  obj :: Object to be printed					
@@ -579,5 +578,4 @@ prettyPrint = (->
           backgroundImage: util.headerGradient
           backgroundRepeat: "repeat-x"
 
-  prettyPrintThis
-)()
+this.prettyPrint = prettyPrintThis
