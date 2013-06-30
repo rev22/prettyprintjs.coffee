@@ -148,9 +148,9 @@
         }
       }
       a = 2;
-      l = arguments_.length;
+      l = arguments.length;
       while (a < l) {
-        util.merge(target, arguments_[a]);
+        util.merge(target, arguments[a]);
         a++;
       }
       return target;
