@@ -1,7 +1,7 @@
 prettyprintjs.coffee
 ===
 
-This is an experimental fork converting the code to CoffeeScript.
+This is a port of prettyPrint.js to CoffeeScript.
 
 The upstream README follows:
 
