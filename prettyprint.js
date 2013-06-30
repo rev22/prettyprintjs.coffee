@@ -178,15 +178,10 @@
       }
       len = arr.length;
       index = -1;
-      if ((function() {
-        var _results;
-        _results = [];
-        while (++index < len) {
-          _results.push(fn(arr[index], index, arr) === false);
+      while (++index < len) {
+        if (fn(arr[index], index, arr) === false) {
+          break;
         }
-        return _results;
-      })()) {
-        break;
       }
       return true;
     },
