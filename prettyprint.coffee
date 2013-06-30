@@ -202,7 +202,7 @@ util =
       # Helper: iteration 
       len = arr.length
       index = -1
-      break  if fn(arr[index], index, arr) is false  while ++index < len
+      (break  if fn(arr[index], index, arr) is false)  while ++index < len
       true
 
     type: (v) ->
