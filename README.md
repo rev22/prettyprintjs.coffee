@@ -63,5 +63,5 @@ Custom settings can be passed (as an object) as the second argument to the prett
 		sortKeys: true   // sort the object keys (default: false)
 	})
 
-tip: Scroll to line ~679 of prettyprint.js for more configuration options.
+tip: Scroll to line ~500 of `prettyPrint.coffee` for more configuration options.
 
